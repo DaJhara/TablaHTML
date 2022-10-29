@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TablaHTML</title>
     <style>
+        .clase1 {
+            background-color: rgb(243, 202, 196);
+            color: rgb(155, 18, 18);
+            border: 2px solid rgb(161, 156, 156);
+            margin: 20px;
+            padding: 20px;
+        }
+        .clase2 {
+            background-color: rgb(200,200,200);
+            color: rgb(100, 100, 100);
+            border: 2px solid rgb(161, 156, 156);
+            margin: 20px;
+            padding: 20px;
+        }
+
+
         table {
             border: 1px dotted #b811a1;
             border-collapse: collapse;
+        }
+        td:hover {
+            background-color: azure;
+            color: crimson;
         }
         th, td {
             text-align: center;
@@ -22,43 +42,77 @@
         tr:nth-child(odd) {
             background-color: #f5e4f5;
         }
+
+        
     </style>
     
 </head>
 <body>
-    <table>
-        <caption><b>Datos de Clientes</b></caption>
-        <tr>
-            <th>Nombre</th> 
-            <th>Año de nacimiento</th> 
-            <th>Edad</th> 
-            <th>Ciudad</th> 
-        </tr>
-        <tr>
-            <td>Carlos</td> 
-            <td>2000</td> 
-            <td>22</td> 
-            <td>Bogotá</td> 
-        </tr>
-        <tr>
-            <td>Andrea</td> 
-            <td>1995</td> 
-            <td>27</td> 
-            <td>Medellin</td> 
-        </tr>
-        <tr>
-            <td>Miguel</td> 
-            <td>1992</td> 
-            <td>30</td> 
-            <td>Cali</td> 
-        </tr>
-        <tr>
-            <td>Juan</td> 
-            <td>1982</td> 
-            <td>40</td> 
-            <td>Cartagena</td> 
-        </tr>
-    </table>
+
+    <div class="clase1">
+        <h2>Ejercicio Tabla</h2>
+        <center>
+            <table>
+                <caption><b>Datos de Clientes</b></caption>
+                <tr>
+                    <th>Nombre</th> 
+                    <th>Año de nacimiento</th> 
+                    <th>Edad</th> 
+                    <th>Ciudad</th> 
+                </tr>
+                <tr>
+                    <td>Carlos</td> 
+                    <td>2000</td> 
+                    <td>22</td> 
+                    <td>Bogotá</td> 
+                </tr>
+                <tr>
+                    <td>Andrea</td> 
+                    <td>1995</td> 
+                    <td>27</td> 
+                    <td>Medellin</td> 
+                </tr>
+                <tr>
+                    <td>Miguel</td> 
+                    <td>1992</td> 
+                    <td>30</td> 
+                    <td>Cali</td> 
+                </tr>
+                <tr>
+                    <td>Juan</td> 
+                    <td>1982</td> 
+                    <td>40</td> 
+                    <td>Cartagena</td> 
+                </tr>
+            </table>
+        </center>
+        
+      </div>
+    
+    <div class="clase2">
+       <ul>
+        <li>Administradores</li>
+        <ol>
+            <li>Andrés Urrea</li>
+        </ol>
+        <li>Supervisores</li>
+        <ol>
+            <li>Andrea Hernández</li>
+            <li>Ligia Perez</li>
+        </ol>
+        <li>Asesores</li>
+        <ol>
+            <li>Hernando Andrés</li>
+            <li>Sama Lopez</li>
+            <li>Sergio P</li>
+            <li>Liss Die</li>
+            <li>Cristian Garcia</li>
+            <li>Juan Perez</li>
+        </ol>
+    </ul> 
+    </div>
+
+     
     
     
 </body>
